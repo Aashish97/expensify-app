@@ -3,7 +3,6 @@ import moment from "moment";
 import { v4 as uuidv4 } from "uuid";
 import "react-dates/initialize";
 import { SingleDatePicker } from "react-dates";
-import "react-dates/lib/css/_datepicker.css";
 
 export default class ExpenseForm extends React.Component {
   constructor(props) {
